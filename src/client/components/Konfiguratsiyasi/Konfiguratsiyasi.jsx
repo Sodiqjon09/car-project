@@ -1,22 +1,24 @@
 import CarPage from "../carPage/CarPage";
+import './KOngfugurutsiayasi.css'
 import Img1 from "../../assets/svg/1.svg";
 import Img2 from "../../assets/svg/2.svg";
 import Img3 from "../../assets/svg/5.svg";
 
 const Konfiguratsiyasi = () => {
   const css = "w-[400px] h-[560px] bg-yellow-800 bg-opacity-5 mt-[20px]";
+  const cssImg  = 'flex justify-center items-center h-[50px] w-[50px] bg-yellow-400'
   return (
     <div>
       <CarPage />
-      <div className="flex justify-around w-[100%] h-[592px] bg-stone-900">
+      <div className="flex justify-around w-[100%] h-[603px] bg-stone-900">
         <div className={css}>
-          <h1 className="w-[431px] text-center text-white text-[33px] font-bold font-['Poppins'] leading-[33px] mt-[60px]">
+          <h1 id="kongiguratsiyasih1" className="w-[431px] text-center text-white text-[35px] font-[700] leading-[33px] mt-[60px]">
             ADMIN PAROLINI ALMASHTIRISH
           </h1>
           <div>
             <div className="">
               <div className="flex justify-center items-center mt-[20px]">
-                <div className="flex justify-center items-center h-[50px] w-[70px] bg-yellow-400">
+                <div className={cssImg}>
                   <img src={Img1} alt="" />
                 </div>
                 <input
@@ -27,7 +29,7 @@ const Konfiguratsiyasi = () => {
               </div>
               <br />
               <div className="flex justify-center items-center">
-                <div className="flex justify-center items-center h-[50px] w-[70px] bg-yellow-400">
+                <div className={cssImg}>
                   <img src={Img2} alt="" />
                 </div>
                 <input
@@ -46,11 +48,11 @@ const Konfiguratsiyasi = () => {
           </div>
         </div>
         <div className={css}>
-          <h1 className="w-[431px] text-center text-white text-[33px] font-bold font-['Poppins'] leading-[33px] mt-[60px]">
+          <h1 id="kongiguratsiyasih1" className="w-[431px] text-center text-white text-[33px] font-bold font-['Poppins'] leading-[33px] mt-[60px]">
             PARKOVKA NARXINI ALMASHTIRISH
           </h1>
           <div className="flex justify-center items-center mt-[20px]">
-            <div className="flex justify-center items-center h-[50px] w-[70px] bg-yellow-400">
+            <div className={cssImg}>
               <img src={Img3} alt="" />
             </div>
             <input

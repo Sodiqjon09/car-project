@@ -11,7 +11,7 @@ const KrimStatistika = () => {
     <div>
       <CarPage />
       <div>
-        <div className="flex justifiy-between bg-stone-900 p-[10px] px-[30px] gap-[40px]">
+        <div className="flex justifiy-between bg-stone-900 p-[10px] px-[30px] gap-[40px] h-[603px]">
           <div className="mt-[50px]">
             <div className="w-[364px] border border-yellow-400">
               <div className="w-[100%] h-[62px] bg-yellow-400 flex justifiy-center items-center ">
