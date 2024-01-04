@@ -4,11 +4,11 @@ import Img2 from "../../assets/svg/2.svg";
 import Img3 from "../../assets/svg/5.svg";
 
 const Konfiguratsiyasi = () => {
-  const css = "w-[400px] h-[580px] bg-yellow-800 bg-opacity-5 mt-[20px]";
+  const css = "w-[400px] h-[560px] bg-yellow-800 bg-opacity-5 mt-[20px]";
   return (
     <div>
       <CarPage />
-      <div className="flex justify-around w-[100%] h-[1080px] bg-stone-900">
+      <div className="flex justify-around w-[100%] h-[592px] bg-stone-900">
         <div className={css}>
           <h1 className="w-[431px] text-center text-white text-[33px] font-bold font-['Poppins'] leading-[33px] mt-[60px]">
             ADMIN PAROLINI ALMASHTIRISH

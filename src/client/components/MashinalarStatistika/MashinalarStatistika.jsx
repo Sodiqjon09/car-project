@@ -17,7 +17,7 @@ export function MashinalaxrStatistika() {
             <div className="text-white text-3xl">NARXI</div>
           </div>
         </div>
-        <div className="h-[500px]">
+        <div className="h-[492px]">
       <NumberTimePrice />
       </div>
         </div>

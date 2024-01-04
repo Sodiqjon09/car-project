@@ -2,7 +2,7 @@ import { useState } from "react";
 import Img1 from "../client/assets/svg/1.svg";
 import Img2 from "../client/assets/svg/2.svg";
 import Index from '../admin/index'
-import CarPage from "../client/components/carPage/CarPage";
+// import CarPage from "../client/components/carPage/CarPage";
 
 const Admin = () => {
   const [email, setEmail] = useState("");
@@ -23,7 +23,7 @@ const Admin = () => {
      ) : ( 
      <div>
         <div className="w-[100%] h-[100px] bg-yellow-400"></div>
-        <div className="w-[100%] h-[100%] bg-stone-900 p-[150px]">
+        <div className="w-[100%] h-[603px] bg-stone-900 p-[150px]">
           <div className="text-white text-7xl text-center">ADMIN KIRISH</div>
           <div className="text-center mt-[50px]">
             <div className="flex justify-center items-center">
@@ -64,7 +64,7 @@ const Admin = () => {
         </div>
       </div>
      )}
-     <CarPage />
+     {/* <CarPage /> */}
    </div>
   );
 };

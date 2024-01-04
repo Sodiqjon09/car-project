@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { UserNamePage } from "../../data/UserNmaePage/UserNmaePage";
 import Soum from "../soum/Soum";
+// import CarNumber from "../CarNumber/CarNumber";
 
 const UsernamePage = () => {
   return (
@@ -30,8 +31,8 @@ const UsernamePage = () => {
           </Link>
         </div>
       </div>
-      <Soum />
-    </div>
+        <Soum />
+      </div>
   );
 };
 

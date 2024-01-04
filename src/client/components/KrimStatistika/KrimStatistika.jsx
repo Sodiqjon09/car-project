@@ -4,7 +4,7 @@ import This from "../this/This";
 import Img3 from "../../assets/svg/3.svg";
 import Img4 from "../../assets/svg/4.svg";
 import { kirim } from "../Kirim/Kirim";
-import { KrimStatistika1 } from "../../data/KrimStatistika/KrimStatistika";
+import AnnualObservations from "../AnnualObservations/AnnualObservations";
 
 const KrimStatistika = () => {
   return (
@@ -24,18 +24,8 @@ const KrimStatistika = () => {
             <This />
           </div>
           <div className="mt-[50px]">
-            <div className="flex gap-[10px]">
-              {KrimStatistika1?.map((nameButton) => {
-                return (
-                  <div key={nameButton.id}>
-                    <button className="w-[140px] h-[39px] bg-yellow-800 border border-yellow-400 text-black text-xs">
-                      {nameButton.name}
-                    </button>
-                  </div>
-                );
-              })}
-            </div>
-            <div className="mt-[50px] w-[1050px] h-[700px] bg-yellow-800 bg-opacity-5 px-[20px]">
+          <AnnualObservations />
+            <div className="mt-[50px] w-[1050px] h-[433px] bg-yellow-800 bg-opacity-5 px-[20px]">
               <div className="flex justify-between">
                 <div>
                   <div className="flex gap-[20px]">
